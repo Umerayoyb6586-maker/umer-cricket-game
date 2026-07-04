@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ground">
+
+   <h1>🏏 Umer's Cricket Game 🏏</h1>
+
+<div class="rules">
+    <h3>Game Rules</h3>
+    <p>1. Choose a number from 1 to 6.</p>
+    <p>2. The computer will also choose a number.</p>
+    <p>3. If your number and the computer's number are the same, you are OUT.</p>
+    <p>4. The game ends when both batsmen are out or after 4 overs (24 balls).</p>
+</div>
+
+    <div class="scoreboard">
+        <h2>Score: <span id="score">0</span>/<span id="wickets">0</span></h2>
+        <h2>Overs: <span id="overs">0.0</span></h2>
+    </div>
+
+    <div class="players">
+        🏏 Batsman 1 &nbsp;&nbsp;&nbsp;&nbsp; 👨‍⚖️ Umpire &nbsp;&nbsp;&nbsp;&nbsp; 🎳 Bowler
+    </div>
+
+    <h3>Choose Your Shot</h3>
+
+    <div class="buttons">
+        <button onclick="play(1)">1</button>
+        <button onclick="play(2)">2</button>
+        <button onclick="play(3)">3</button>
+        <button onclick="play(4)">4</button>
+        <button onclick="play(5)">5</button>
+        <button onclick="play(6)">6</button>
+    </div>
+
+    <h2 id="result"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
